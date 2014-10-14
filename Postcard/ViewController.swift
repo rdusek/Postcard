@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // this is a test for using git
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -32,7 +34,7 @@ class ViewController: UIViewController {
        
         enterMessageTextField.text = "";
         enterMessageTextField.resignFirstResponder();
-                
+        
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal);
     }
 
